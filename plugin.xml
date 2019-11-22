@@ -1,4 +1,4 @@
-<plugin name='pdf' version='0.6' grailsVersion='1.1 &gt; *'>
+<plugin name='pdf' version='0.7.0' grailsVersion='2.3 &gt; *'>
   <author>Aaron Eischeid</author>
   <authorEmail>a.eischeid@gmail.com</authorEmail>
   <title>Provides a simple way to generate PDFs from web pages</title>
@@ -9,14 +9,10 @@
     from java.net to do the rendering.
     </description>
   <documentation>http://grails.org/Pdf+Plugin</documentation>
+  <type>PdfGrailsPlugin</type>
   <resources>
-    <resource>BuildConfig</resource>
-    <resource>DataSource</resource>
-    <resource>UrlMappings</resource>
     <resource>pdf.PdfController</resource>
     <resource>pdf.PdfService</resource>
     <resource>pdf.PdfTagLib</resource>
   </resources>
-  <dependencies />
-  <behavior />
 </plugin>
